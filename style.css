@@ -2,10 +2,10 @@
     display: flex;
 }
 
-
 .tabs {
     display: flex;
 }
+
 .tab {
     width: 125px;
     height: 45px;
@@ -42,9 +42,11 @@
 .red-range {
     background-color: red;
 }
+
 .green-range {
     background-color: green;
 }
+
 .blue-range {
     background-color: blue;
 }

@@ -1,3 +1,5 @@
+/* === Color sliders === */
+
 $('.progressbar').slider({
     classes: {
         'ui-slider': 'slider',
@@ -35,6 +37,10 @@ $('.progressbar').on('slide', function (){
    $('.textArea').css('color', color);
 });
 
+/* !=== Color sliders === */
+
+
+/* === Background sliders === */
 
 $('.progressbarBG').slider({
     classes: {
@@ -75,7 +81,9 @@ $('.progressbarBG').on('slide', function (){
     $('.textArea').css('background-color', color);
 });
 
+/* !=== Background sliders === */
 
+/* === Tabs(Color/Background sliders) === */
 $('.colorBtn').click(function () {
     $('.bgcolorBtn').removeClass('active');
     $(this).addClass('active');
@@ -90,3 +98,4 @@ $('.bgcolorBtn').click(function () {
     $('.progressbar').removeClass('notActiveSliders');
 });
 
+/* !=== Tabs(Color/Background sliders) === */
